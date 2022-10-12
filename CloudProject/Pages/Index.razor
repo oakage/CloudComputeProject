@@ -1,0 +1,53 @@
+﻿@page "/"
+@using CloudProject.Models
+
+<PageTitle>Index</PageTitle>
+
+<div class="container">
+    <header>
+        Proyecto De Cómputo en la nube
+    </header>
+    <EditForm Model="@cds" OnValidSubmit="@saveCDs">
+        <div class="col-12 row">
+            <label class="col-2 font-weight-bold">CD Name</label>
+            <input @ref="cdNameTextBox" class="form-control col-3" @bind="cds.CDName" placeholder="CD Name" />
+            &nbsp;<ValidationMessage For="@(() => cds.CDName)" />
+        </div>
+        <br />
+        <div class="col-12 row">
+            <label class="col-2 font-weight-bold">Artist</label>
+            <InputText class="form-control col-3" @bind-Value="cds.Artist" placeholder="Artist" />
+            &nbsp;<ValidationMessage For="@(() => cds.Artist)" />
+        </div>
+        <br />
+        <div class="col-12 row">
+            <label class="col-2 font-weight-bold">Genre</label>
+            <InputText class="form-control col-3" @bind-Value="cds.Genre" placeholder="Genre" />
+            &nbsp;<ValidationMessage For="@(() => cds.Genre)" />
+        </div>
+        <br />
+        <div class="col-12 row">
+            <label class="col-2 font-weight-bold">Quantity</label>
+            <InputText class="form-control col-3" @bind-Value="cds.Quantity" placeholder="email address" />
+            &nbsp;<ValidationMessage For="@(() => author.EmailAddress)" />
+        </div>
+        <br />
+        <div class="col-12 row">
+            <span class="col-2"></span>
+            <input type="submit" class="form-control col-1 btn btn-primary" value="Save" />
+            <span>&nbsp;</span>
+            <input type="submit" class="form-control col-1 btn btn-primary" value="Clear" />
+        </div>
+    </EditForm>
+</div>
+
+
+@code
+{
+    public CDs cds { get; set; }
+    public List<CDs> cdsList { get; set; }
+    private async Task saveCDs()
+    {
+
+    }
+}
