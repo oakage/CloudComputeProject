@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dhaoiYRQeKOggKc9hpgFRnLGhOQpho7Kcy9e5IxFtmtWTPt6JtRlVzuOqyUz/a4Hd7q0CDIUX8pTlmapZc2bkQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\c-llopez1\\source\\repos\\CloudCompute\\CloudCompute\\Shared\\CloudCompute.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\c-llopez1\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

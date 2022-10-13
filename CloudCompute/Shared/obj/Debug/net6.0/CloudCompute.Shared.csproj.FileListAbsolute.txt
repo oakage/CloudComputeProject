@@ -1,0 +1,12 @@
+C:\Users\c-llopez1\source\repos\CloudCompute\CloudCompute\Shared\bin\Debug\net6.0\CloudCompute.Shared.deps.json
+C:\Users\c-llopez1\source\repos\CloudCompute\CloudCompute\Shared\bin\Debug\net6.0\CloudCompute.Shared.dll
+C:\Users\c-llopez1\source\repos\CloudCompute\CloudCompute\Shared\bin\Debug\net6.0\CloudCompute.Shared.pdb
+C:\Users\c-llopez1\source\repos\CloudCompute\CloudCompute\Shared\obj\Debug\net6.0\CloudCompute.Shared.csproj.AssemblyReference.cache
+C:\Users\c-llopez1\source\repos\CloudCompute\CloudCompute\Shared\obj\Debug\net6.0\CloudCompute.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\c-llopez1\source\repos\CloudCompute\CloudCompute\Shared\obj\Debug\net6.0\CloudCompute.Shared.AssemblyInfoInputs.cache
+C:\Users\c-llopez1\source\repos\CloudCompute\CloudCompute\Shared\obj\Debug\net6.0\CloudCompute.Shared.AssemblyInfo.cs
+C:\Users\c-llopez1\source\repos\CloudCompute\CloudCompute\Shared\obj\Debug\net6.0\CloudCompute.Shared.csproj.CoreCompileInputs.cache
+C:\Users\c-llopez1\source\repos\CloudCompute\CloudCompute\Shared\obj\Debug\net6.0\CloudCompute.Shared.dll
+C:\Users\c-llopez1\source\repos\CloudCompute\CloudCompute\Shared\obj\Debug\net6.0\refint\CloudCompute.Shared.dll
+C:\Users\c-llopez1\source\repos\CloudCompute\CloudCompute\Shared\obj\Debug\net6.0\CloudCompute.Shared.pdb
+C:\Users\c-llopez1\source\repos\CloudCompute\CloudCompute\Shared\obj\Debug\net6.0\ref\CloudCompute.Shared.dll

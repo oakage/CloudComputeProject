@@ -1,0 +1,8 @@
+C:\Users\c-llopez1\source\repos\CloudCompute\CloudCompute\Server\obj\Debug\net6.0\CloudCompute.Server.csproj.AssemblyReference.cache
+C:\Users\c-llopez1\source\repos\CloudCompute\CloudCompute\Server\obj\Debug\net6.0\CloudCompute.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\c-llopez1\source\repos\CloudCompute\CloudCompute\Server\obj\Debug\net6.0\CloudCompute.Server.AssemblyInfoInputs.cache
+C:\Users\c-llopez1\source\repos\CloudCompute\CloudCompute\Server\obj\Debug\net6.0\CloudCompute.Server.AssemblyInfo.cs
+C:\Users\c-llopez1\source\repos\CloudCompute\CloudCompute\Server\obj\Debug\net6.0\CloudCompute.Server.csproj.CoreCompileInputs.cache
+C:\Users\c-llopez1\source\repos\CloudCompute\CloudCompute\Server\obj\Debug\net6.0\CloudCompute.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\c-llopez1\source\repos\CloudCompute\CloudCompute\Server\obj\Debug\net6.0\CloudCompute.Server.RazorAssemblyInfo.cache
+C:\Users\c-llopez1\source\repos\CloudCompute\CloudCompute\Server\obj\Debug\net6.0\CloudCompute.Server.RazorAssemblyInfo.cs

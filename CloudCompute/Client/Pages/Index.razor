@@ -1,0 +1,59 @@
+﻿@page "/"
+@using CloudCompute.Shared
+
+<PageTitle>Index</PageTitle>
+
+<div class="container">
+    <header>
+        Proyecto De Cómputo en la nube
+    </header>
+    <EditForm class="grid" Model="@cds" OnValidSubmit="@saveCDs">
+        <DataAnnotationsValidator />
+
+        <div class="inputs">
+            <label>CD Name</label>
+            <InputText @bind-Value="cds.CDName" placeholder="CD Name" />
+            &nbsp;<ValidationMessage For="@(() => cds.CDName)" />
+        </div>
+        <br />
+        <div class="inputs">
+            <label>Artist</label>
+            <InputText @bind-Value="cds.Artist" placeholder="Artist" />
+            &nbsp;<ValidationMessage For="@(() => cds.Artist)" />
+        </div>
+        <br />
+        <div class="inputs">
+            <label>Genre</label>
+            <InputText @bind-Value="cds.Genre" placeholder="Genre" />
+            &nbsp;<ValidationMessage For="@(() => cds.Genre)" />
+        </div>
+        <br />
+        <div class="inputs">
+            <label>Quantity</label>
+            <input @bind="cds.Quantity" placeholder="Quantity" />
+        </div>
+        <br />
+        <div class="inputs">
+            <label>Arrival</label>
+            <InputDate @bind-Value="cds.Arrive" placeholder="Arrive" />
+            &nbsp;<ValidationMessage For="@(() => cds.Arrive)" />
+        </div>
+        <br />
+        <div class="inputs">
+            <span></span>
+            <input type="submit" value="Save" />
+
+        </div>
+    </EditForm>
+</div>
+
+
+@code
+{
+    public CDs cds = new();
+    public List<CDs>? cdsList { get; set; }
+    private async Task saveCDs()
+    {
+
+    }
+}
